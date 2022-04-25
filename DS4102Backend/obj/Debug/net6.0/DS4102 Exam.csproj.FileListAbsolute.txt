@@ -52,3 +52,4 @@ C:\Users\Sebas\Desktop\DS4102-Eksamen\DS4102Exam\DS4102Backend\obj\Debug\net6.0\
 C:\Users\Sebas\Desktop\DS4102-Eksamen\DS4102Exam\DS4102Backend\obj\Debug\net6.0\DS4102 Exam.pdb
 C:\Users\Sebas\Desktop\DS4102-Eksamen\DS4102Exam\DS4102Backend\obj\Debug\net6.0\DS4102 Exam.genruntimeconfig.cache
 C:\Users\Sebas\Desktop\DS4102-Eksamen\DS4102Exam\DS4102Backend\obj\Debug\net6.0\ref\DS4102 Exam.dll
+C:\Users\Sebas\Desktop\DS4102-Eksamen\DS4102Exam\DS4102Backend\bin\Debug\net6.0\DS4102 Exam.staticwebassets.runtime.json
