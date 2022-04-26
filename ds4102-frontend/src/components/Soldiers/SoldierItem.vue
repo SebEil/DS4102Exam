@@ -1,6 +1,6 @@
 <template>
     <section class="soldierContainer">
-        <h3>SoldierId: {{ soldierId }}</h3>
+        <h3>Soldier Id: {{ soldierId }}</h3>
         <h3>Soldier Name: {{ soldierName }}</h3>
         <h3>Bloodtype: {{ bloodtype }}</h3>
         <h3>Height: {{ height }}</h3>

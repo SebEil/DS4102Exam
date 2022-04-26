@@ -2,8 +2,8 @@
     <section>
         <article class="row align d-flex justify-content-center">
         <soldier-item
-            class="container col p-2 text-center" v-for="(soldier, j) in soldiers"
-            :key="j"
+            class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
+            :key="i"
             :soldierId="soldier.soldierId"
             :soldierName="soldier.soldierName"
             :bloodtype="soldier.bloodtype"
