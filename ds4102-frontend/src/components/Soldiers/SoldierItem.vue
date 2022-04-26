@@ -1,5 +1,6 @@
 <template>
     <article>
+        <h2>Soldiers in the troop</h2>
         <h3>SoldierId: {{ SoldierId }}</h3>
         <h3>Soldier Name: {{ SoldierName }}</h3>
         <h3>Bloodtype: {{ Bloodtype }}</h3>
