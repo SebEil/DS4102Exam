@@ -8,7 +8,7 @@
             :missionName="mission.missionName"
             :missionLocation="mission.missionLocation"
             :soldiersDeployed="mission.soldiersDeployed"
-            ></mission-item>
+        ></mission-item>
     </section>
 </template>
 

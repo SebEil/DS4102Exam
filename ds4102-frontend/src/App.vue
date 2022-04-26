@@ -33,4 +33,12 @@ nav a.router-link-exact-active {
 article {
   margin-top: 4rem;
 }
+
+section {
+  margin-top: 4rem;
+}
+
+h2 {
+  margin-top: 4rem;
+}
 </style>

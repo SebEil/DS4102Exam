@@ -6,9 +6,11 @@
             :key="i"
             :soldierId="soldier.soldierId"
             :soldierName="soldier.soldierName"
-            :Bloodtype="soldier.Bloodtype"
-            :Height="soldier.Height"
-            ></soldier-item>
+            :bloodtype="soldier.bloodtype"
+            :height="soldier.height"
+            :image="soldier.image"
+            :isOnMission="soldier.isOnMission"
+        ></soldier-item>
     </section>
 </template>
 
