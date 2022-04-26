@@ -13,7 +13,16 @@ const soldierService = (function(){
         soldiers.value = request.data;
     })()
 
-    const getAll = () => soldiers;
+    const getAllSoldiers = () => soldiers;
+
+    const postSoldier = ( newSoldier ) =>
+    
+    soldiers.value.push(newSoldier)
+
+    return {
+        getAllSoldiers,
+        postSoldier
+    }
 
     /*const postSoldier = ( newSoldier, image ) =>
 
@@ -27,11 +36,6 @@ const soldierService = (function(){
         });
 
     soldiers.value.push(newSoldier) */
-
-    return {
-        getAll,
-        //postSoldier
-    }
 }())
 
 export default soldierService;
