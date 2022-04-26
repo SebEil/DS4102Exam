@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import SoldierView from '../views/SoldierView.vue'
-import SoldierAdminView from '../views/SoldierAdminView.vue'
+import ArmyView from '../views/ArmyView.vue'
+import ArmyAdminView from '../views/ArmyAdminView.vue'
 
 const routes = [
   {
@@ -19,13 +19,13 @@ const routes = [
   },
   {
     path: '/overview',
-    name: 'soldier overview',
-    component: SoldierView
+    name: 'army overview',
+    component: ArmyView
   },
   {
     path: '/admin',
     name: 'admin',
-    component: SoldierAdminView
+    component: ArmyAdminView
   }
 ]
 
