@@ -16,7 +16,7 @@ export default {
         soldierId : Number,
         soldierName : String,
         bloodtype : String,
-        height : Float32Array,
+        height : Number,
         image: String,
         isOnMission: Boolean
     }

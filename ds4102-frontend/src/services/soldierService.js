@@ -5,8 +5,8 @@ const soldierService = (function(){
 
     const soldiers = ref([]);
 
-    const soldierControllerUrl = "https://localhost:7203/soldier";
-    const imageUploadControllerUrl ="https://localhost:7203/imageUpload/postImage"
+    const soldierControllerUrl = "https://localhost:7203/Soldier";
+    //const imageUploadControllerUrl ="https://localhost:7203/imageUpload/postImage"
 
     ( async ()=> {
         const request = await axios.get(soldierControllerUrl);
@@ -15,7 +15,7 @@ const soldierService = (function(){
 
     const getAll = () => soldiers;
 
-    const postSoldier = ( newSoldier, image ) =>
+    /*const postSoldier = ( newSoldier, image ) =>
 
         axios.post(soldierControllerUrl, newSoldier);
 
@@ -26,11 +26,11 @@ const soldierService = (function(){
             config: { header: { "Content-Type": "multipart/form-data" } }
         });
 
-    soldiers.value.push(newSoldier)
+    soldiers.value.push(newSoldier) */
 
     return {
         getAll,
-        postSoldier
+        //postSoldier
     }
 }())
 
