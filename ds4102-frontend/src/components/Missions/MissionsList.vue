@@ -4,10 +4,10 @@
         <mission-item
             class="container col p-2 text-center" v-for="(mission, i) in missions"
             :key="i"
-            :MissionId="mission.MissionId"
-            :MissionName="mission.MissionName"
-            :MissionLocation="mission.MissionLocation"
-            :SoldiersDeployed="mission.SoldiersDeployed">
+            :missionId="mission.missionId"
+            :missionName="mission.missionName"
+            :missionLocation="mission.missionLocation"
+            :soldiersDeployed="mission.soldiersDeployed">
             </mission-item>
         </article>
     </section>

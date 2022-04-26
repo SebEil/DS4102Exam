@@ -1,23 +1,23 @@
 <template>
-    <section class="missionContainer">
-        <h3>SoldierId: {{ SoldierId }}</h3>
-        <h3>Soldier Name: {{ SoldierName }}</h3>
-        <h3>Bloodtype: {{ Bloodtype }}</h3>
-        <h3>Height: {{ Height }}</h3>
+    <section class="soldierContainer">
+        <h3>SoldierId: {{ soldierId }}</h3>
+        <h3>Soldier Name: {{ soldierName }}</h3>
+        <h3>Bloodtype: {{ bloodtype }}</h3>
+        <h3>Height: {{ height }}</h3>
         <img :src="`https://localhost:7203/images/${image}`">
-        <h3>Deployed: {{ IsOnMission }} </h3>
+        <h3>Deployed: {{ isOnMission }} </h3>
     </section>
 </template>
 
 <script>
 export default {
     props: {
-        SoldierId : Number,
-        SoldierName : String,
-        Bloodtype : String,
-        Height : Number,
+        soldierId : Number,
+        soldierName : String,
+        bloodtype : String,
+        height : Number,
         image: String,
-        IsOnMission: Boolean
+        isOnMission: Boolean
     }
 }
 </script>
@@ -31,6 +31,7 @@ export default {
         margin: 0.5rem;
         
         min-width: 400px;
+        max-width: 500px;
         padding: 3rem;
     }
 

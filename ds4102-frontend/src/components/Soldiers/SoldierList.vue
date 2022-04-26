@@ -1,16 +1,15 @@
 <template>
     <section>
-        <h2>List of soldiers</h2>
         <article class="row align d-flex justify-content-center">
         <soldier-item
-            class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
-            :key="i"
-            :SoldierId="soldier.SoldierId"
-            :SoldierName="soldier.SoldierName"
-            :Bloodtype="soldier.Bloodtype"
-            :Height="soldier.Height"
+            class="container col p-2 text-center" v-for="(soldier, j) in soldiers"
+            :key="j"
+            :soldierId="soldier.soldierId"
+            :soldierName="soldier.soldierName"
+            :bloodtype="soldier.bloodtype"
+            :height="soldier.height"
             :image="soldier.image"
-            :IsOnMission="soldier.IsOnMission">
+            :isOnMission="soldier.isOnMission">
             </soldier-item>
         </article>
     </section>
@@ -35,6 +34,11 @@ export default {
 </script>
 
 <style>
+    img{
+        width: 320px;
+        height: 320px;   
+    }
+
     .container{
         padding: 1rem;
         background-color: rgb(161, 148, 148);
