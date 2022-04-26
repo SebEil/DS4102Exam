@@ -4,12 +4,12 @@
         <soldier-item
             v-for="(soldier, i) in soldiers"
             :key="i"
-            :soldierId="soldier.soldierId"
-            :soldierName="soldier.soldierName"
-            :bloodtype="soldier.bloodtype"
-            :height="soldier.height"
+            :SoldierId="soldier.SoldierId"
+            :SoldierName="soldier.SoldierName"
+            :Bloodtype="soldier.Bloodtype"
+            :Height="soldier.Height"
             :image="soldier.image"
-            :isOnMission="soldier.isOnMission"
+            :IsOnMission="soldier.IsOnMission"
         ></soldier-item>
     </section>
 </template>
@@ -20,7 +20,7 @@ import soldierService from "../../services/soldierService.js"
 
 export default {
     setup(){
-        const soldiers = soldierService.getAll();
+        const soldiers = soldierService.getAllSoldiers();
 
         return{
             soldiers

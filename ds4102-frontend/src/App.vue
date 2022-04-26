@@ -29,16 +29,4 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
-
-article {
-  margin-top: 4rem;
-}
-
-section {
-  margin-top: 4rem;
-}
-
-h2 {
-  margin-top: 4rem;
-}
 </style>

@@ -1,13 +1,12 @@
 <template>
     <section>
-        <h2>Current Missions</h2>
         <mission-item
             v-for="(mission, i) in missions"
             :key="i"
-            :missionId="mission.missionId"
-            :missionName="mission.missionName"
-            :missionLocation="mission.missionLocation"
-            :soldiersDeployed="mission.soldiersDeployed"
+            :MissionId="mission.MissionId"
+            :MissionName="mission.MissionName"
+            :MissionLocation="mission.MissionLocation"
+            :SoldiersDeployed="mission.SoldiersDeployed"
         ></mission-item>
     </section>
 </template>
