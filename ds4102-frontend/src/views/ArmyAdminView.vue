@@ -1,5 +1,5 @@
 <template>
     <section>
-        <h2>Soldier admin page</h2>
+        <h2>Army admin page</h2>
     </section>
 </template>

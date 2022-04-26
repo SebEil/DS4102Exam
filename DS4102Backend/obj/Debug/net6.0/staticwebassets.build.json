@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FPw7BpD32LNuqtBeTLn8mh6q1CilOuPDycVUa23dHQI=",
+  "Hash": "iyluKMklXhdCfMsJtoKUu9OXQwNLczTfbsY8Y7eCIAU=",
   "Source": "DS4102 Exam",
   "BasePath": "_content/DS4102 Exam",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DS4102 Exam\\wwwroot",
       "Source": "DS4102 Exam",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Soldier1.jpg",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Soldier1.jpg",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "images/Soldier1.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Soldier1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Tanks1.jpg",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Tanks1.jpg",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "images/Tanks1.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tanks1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\Index.html",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\Index.html",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "Index.html",
       "AssetKind": "All",
