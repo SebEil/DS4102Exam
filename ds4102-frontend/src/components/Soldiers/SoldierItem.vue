@@ -1,13 +1,12 @@
 <template>
-    <article>
-        <h2>Soldiers in the troop</h2>
+    <section class="missionContainer">
         <h3>SoldierId: {{ SoldierId }}</h3>
         <h3>Soldier Name: {{ SoldierName }}</h3>
         <h3>Bloodtype: {{ Bloodtype }}</h3>
         <h3>Height: {{ Height }}</h3>
         <img :src="`https://localhost:7203/images/${image}`">
         <h3>Deployed: {{ IsOnMission }} </h3>
-    </article>
+    </section>
 </template>
 
 <script>
@@ -22,3 +21,17 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+
+    section{ border: 1px solid black;}
+
+    .soldierContainer {
+        border-radius: 25px;
+        margin: 0.5rem;
+        
+        min-width: 400px;
+        padding: 3rem;
+    }
+
+</style>
