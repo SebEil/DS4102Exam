@@ -1331,11 +1331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
+      "projectUniqueName": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
       "projectName": "DS4102 Exam",
-      "projectPath": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
+      "projectPath": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
       "packagesPath": "C:\\Users\\Sebas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\obj\\",
+      "outputPath": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",

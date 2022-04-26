@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iXiZqb3MvK0y/rxsA1kplAzIjYXSNKuhLPMnOXL5xdnnHTFXyv0i/wdVbAb6ojc9yWeI7dCHYrT4sngOSZRDHw==",
+  "dgSpecHash": "mSCQa4/cFhxwOAuk85NIDo9bntdST+sFPvkyiHyDyRTZQQDH8iSHHkA5RuaqGw/9HWiayMVen0x4RWuL5mv7hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sebas\\Desktop\\DS4102-Eksamen\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
+  "projectFilePath": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sebas\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
