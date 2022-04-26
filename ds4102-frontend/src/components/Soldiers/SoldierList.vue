@@ -3,7 +3,7 @@
         <h3>Soldiers</h3>
         <article class="row align d-flex justify-content-center">
         <soldier-item
-            class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
+           class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
             :key="i"
             :soldierId="soldier.soldierId"
             :soldierName="soldier.soldierName"
@@ -11,7 +11,7 @@
             :height="soldier.height"
             :image="soldier.image"
             :isOnMission="soldier.isOnMission">
-            </soldier-item>
+        </soldier-item>
         </article>
     </section>
 </template>
