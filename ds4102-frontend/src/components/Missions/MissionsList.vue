@@ -1,5 +1,6 @@
 <template>
     <section>
+        <h3>Missions</h3>
         <article class="row align d-flex justify-content-center">
         <mission-item
             class="container col p-2 text-center" v-for="(mission, i) in missions"

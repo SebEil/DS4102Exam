@@ -1,5 +1,6 @@
 <template>
     <section>
+        <h3>Vehicles</h3>
         <article class="row align d-flex justify-content-center">
         <vehicle-item
             class="container col p-2 text-center" v-for="(vehicle, i) in vehicles"
