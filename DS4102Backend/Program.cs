@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<ArmyContext>(
-    options => options.UseSqlite("Data Source=ArmyDb.db")
+    options => options.UseSqlite("Data Source=ArmyData.db")
 );
 
 builder.Services.AddCors(

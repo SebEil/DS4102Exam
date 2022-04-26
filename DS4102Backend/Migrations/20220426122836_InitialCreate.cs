@@ -9,7 +9,7 @@ namespace DS4102_Exam.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Mission",
+                name: "Missions",
                 columns: table => new
                 {
                     MissionId = table.Column<int>(type: "INTEGER", nullable: false)
@@ -20,11 +20,11 @@ namespace DS4102_Exam.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Mission", x => x.MissionId);
+                    table.PrimaryKey("PK_Missions", x => x.MissionId);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Soldier",
+                name: "Soldiers",
                 columns: table => new
                 {
                     SoldierId = table.Column<int>(type: "INTEGER", nullable: false)
@@ -37,11 +37,11 @@ namespace DS4102_Exam.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Soldier", x => x.SoldierId);
+                    table.PrimaryKey("PK_Soldiers", x => x.SoldierId);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Vehicle",
+                name: "Vehicles",
                 columns: table => new
                 {
                     VehicleId = table.Column<int>(type: "INTEGER", nullable: false)
@@ -51,11 +51,11 @@ namespace DS4102_Exam.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Vehicle", x => x.VehicleId);
+                    table.PrimaryKey("PK_Vehicles", x => x.VehicleId);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Weapon",
+                name: "Weapons",
                 columns: table => new
                 {
                     WeaponId = table.Column<int>(type: "INTEGER", nullable: false)
@@ -66,23 +66,23 @@ namespace DS4102_Exam.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Weapon", x => x.WeaponId);
+                    table.PrimaryKey("PK_Weapons", x => x.WeaponId);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Mission");
+                name: "Missions");
 
             migrationBuilder.DropTable(
-                name: "Soldier");
+                name: "Soldiers");
 
             migrationBuilder.DropTable(
-                name: "Vehicle");
+                name: "Vehicles");
 
             migrationBuilder.DropTable(
-                name: "Weapon");
+                name: "Weapons");
         }
     }
 }

@@ -33,7 +33,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("MissionId");
 
-                    b.ToTable("Mission");
+                    b.ToTable("Missions");
                 });
 
             modelBuilder.Entity("DS4102Backend.Models.Soldier", b =>
@@ -59,7 +59,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("SoldierId");
 
-                    b.ToTable("Soldier");
+                    b.ToTable("Soldiers");
                 });
 
             modelBuilder.Entity("DS4102Backend.Models.Vehicle", b =>
@@ -76,7 +76,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("VehicleId");
 
-                    b.ToTable("Vehicle");
+                    b.ToTable("Vehicles");
                 });
 
             modelBuilder.Entity("DS4102Backend.Models.Weapon", b =>
@@ -96,7 +96,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("WeaponId");
 
-                    b.ToTable("Weapon");
+                    b.ToTable("Weapons");
                 });
 #pragma warning restore 612, 618
         }

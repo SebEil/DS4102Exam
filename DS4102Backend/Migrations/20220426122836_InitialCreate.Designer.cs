@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DS4102_Exam.Migrations
 {
     [DbContext(typeof(ArmyContext))]
-    [Migration("20220425181909_InitialCreate")]
+    [Migration("20220426122836_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("MissionId");
 
-                    b.ToTable("Mission");
+                    b.ToTable("Missions");
                 });
 
             modelBuilder.Entity("DS4102Backend.Models.Soldier", b =>
@@ -61,7 +61,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("SoldierId");
 
-                    b.ToTable("Soldier");
+                    b.ToTable("Soldiers");
                 });
 
             modelBuilder.Entity("DS4102Backend.Models.Vehicle", b =>
@@ -78,7 +78,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("VehicleId");
 
-                    b.ToTable("Vehicle");
+                    b.ToTable("Vehicles");
                 });
 
             modelBuilder.Entity("DS4102Backend.Models.Weapon", b =>
@@ -98,7 +98,7 @@ namespace DS4102_Exam.Migrations
 
                     b.HasKey("WeaponId");
 
-                    b.ToTable("Weapon");
+                    b.ToTable("Weapons");
                 });
 #pragma warning restore 612, 618
         }
