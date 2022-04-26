@@ -1,8 +1,8 @@
 <template>
     <section>
         <h2>Overview of all things in the troop</h2>
-        <soldier-list></soldier-list>
         <mission-list></mission-list>
+        <soldier-list></soldier-list>
     </section>
 </template>
 

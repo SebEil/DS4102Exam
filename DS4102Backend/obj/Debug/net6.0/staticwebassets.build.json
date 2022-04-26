@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iyluKMklXhdCfMsJtoKUu9OXQwNLczTfbsY8Y7eCIAU=",
+  "Hash": "ISAeft/gq33PxP+bd+c3rVSyvr1euX0W5YCj4Dky/Uk=",
   "Source": "DS4102 Exam",
   "BasePath": "_content/DS4102 Exam",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\larstveten.jpg",
+      "SourceId": "DS4102 Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "BasePath": "_content/DS4102 Exam",
+      "RelativePath": "images/larstveten.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\larstveten.jpg"
+    },
     {
       "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Soldier1.jpg",
       "SourceId": "DS4102 Exam",
