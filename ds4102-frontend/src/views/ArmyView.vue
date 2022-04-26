@@ -4,6 +4,7 @@
         <missions-list></missions-list>
         <soldier-list></soldier-list>
         <vehicle-list></vehicle-list>
+        <weapon-list></weapon-list>
     </section>
 </template>
 
@@ -12,12 +13,14 @@
 import SoldierList from "../components/soldiers/SoldierItem.vue"
 import MissionsList from "../components/missions/MissionsList.vue"
 import VehicleList from "../components/Vehicles/VehicleList.vue"
+import WeaponList from "../components/Weapons/WeaponList.vue"
 
 export default {
     components: {
         MissionsList,
         SoldierList,
-        VehicleList
+        VehicleList,
+        WeaponList
     }
 }
 </script>
