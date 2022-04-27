@@ -10,7 +10,7 @@
 
 <script>
 
-import SoldierList from "../components/soldiers/SoldierItem.vue"
+import SoldierList from "../components/soldiers/SoldierList.vue"
 import MissionsList from "../components/missions/MissionsList.vue"
 import VehicleList from "../components/Vehicles/VehicleList.vue"
 import WeaponList from "../components/Weapons/WeaponList.vue"

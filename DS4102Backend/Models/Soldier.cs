@@ -8,7 +8,7 @@ public class Soldier
     public int SoldierId { get; set; }
     public string? SoldierName { get; set; }
     public string? Bloodtype { get; set; }
-    public double Height { get; set; } //1.85m
+    public double Height { get; set; }
     public string? Image { get; set; }
     public bool IsOnMission { get; set; }
 }

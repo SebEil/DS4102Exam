@@ -5,11 +5,11 @@ const soldierService = (function(){
 
     const soldiers = ref([]);
 
-    const soldierControllerUrl = "https://localhost:7203/soldier";
+    const soldierControllerUrl = "https://localhost:7203/Soldier";
 
     ( async ()=>{
         const request = await axios.get(soldierControllerUrl);
-        soldier.value = request.data;
+        soldiers.value = request.data;
     })()
 
     const getAllSoldiers = () => soldiers;

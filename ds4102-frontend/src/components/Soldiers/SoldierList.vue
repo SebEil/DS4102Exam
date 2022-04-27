@@ -23,7 +23,7 @@ import soldierService from "../../services/soldierService.js"
 export default {
     setup(){
         const soldiers = soldierService.getAllSoldiers();
-
+        
         return{
             soldiers
         }
