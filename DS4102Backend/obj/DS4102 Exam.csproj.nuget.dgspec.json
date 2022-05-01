@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj": {}
+    "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj": {
+    "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
         "projectName": "DS4102 Exam",
-        "projectPath": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
-        "packagesPath": "C:\\Users\\Sebas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\obj\\",
+        "projectPath": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\DS4102 Exam.csproj",
+        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
