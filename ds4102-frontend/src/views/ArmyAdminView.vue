@@ -37,6 +37,12 @@ export default {
             soldiersDeployed: 1
         });
 
+        const missionFormNew = reactive({
+            missionName: "",
+            missionLocation: "",
+            soldiersDeployed: 1
+        });
+
         const getMission = async () => {
             const mission = await missionService.getById(missionForm.missionId);
             missionForm.missionName = mission.missionName;
@@ -59,10 +65,17 @@ export default {
         const postMission = () => {
 
             const newMission = {
+<<<<<<< HEAD
                 missionId: missionForm.missionId,
                 missionName: missionForm.missionName,
                 missionLocation: missionForm.missionLocation,
                 soldiersDeployed: missionForm.soldiersDeployed
+=======
+                missionId: missionFormNew.missionId,
+                missionName: missionFormNew.missionName,
+                missionLocation: missionFormNew.missionLocation,
+                soldiersDeployed: missionFormNew.soldiersDeployed
+>>>>>>> 6fb6d8cc939dd4d6183ce70d2adfcad9a0911fe1
             };
 
             missionService.postMission ( newMission );
