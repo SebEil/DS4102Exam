@@ -30,6 +30,7 @@ const missionService = (function(){
         missions.value[index].missionLocation = editedMission.missionLocation;
         missions.value[index].soldiersDeployed = editedMission.soldiersDeployed;
 
+
     }
 
 
@@ -40,6 +41,7 @@ const missionService = (function(){
 
     const deleteMission = async ( missionToDelete ) => {
         await axios.delete(`https://localhost:7203/mission/${missionToDelete}`)
+        
     }
 
     

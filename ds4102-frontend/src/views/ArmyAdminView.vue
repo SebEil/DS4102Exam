@@ -1,7 +1,9 @@
 <template>
     <section>
+        <h2 class="text-center">Army Admin Page</h2>
         <edit-mission></edit-mission>
         <missions-list></missions-list>
+        
     </section>
 </template>
 
@@ -19,4 +21,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .text-center{
+        margin-top: -1.9rem ;
+    }
+</style>
 

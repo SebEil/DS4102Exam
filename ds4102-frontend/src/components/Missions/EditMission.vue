@@ -1,9 +1,7 @@
 <template>
+    <section> <h2 class="spacingTop">Mission Editing</h2>
     <section id="inputSection">
         <section class="container-lg">
-            <section class="text-center">
-                <h2>Army Admin Page</h2>
-            </section>
             <section class="row justify-content-center">
                 <section class="col-lg-3">
                     <form>
@@ -36,6 +34,7 @@
             </section>
         </section>
     </section>
+    </section>
 </template>
 
 <script>
@@ -48,12 +47,6 @@ export default {
        
        const missionForm = reactive({
             missionId: "",
-            missionName: "",
-            missionLocation: "",
-            soldiersDeployed: 1
-        });
-
-        const missionFormNew = reactive({
             missionName: "",
             missionLocation: "",
             soldiersDeployed: 1
@@ -76,15 +69,15 @@ export default {
             }
 
             missionService.putMission( editedMission );
+            
         }
 
         const postMission = () => {
 
             const newMission = {
-
-                missionName: missionFormNew.missionName,
-                missionLocation: missionFormNew.missionLocation,
-                soldiersDeployed: missionFormNew.soldiersDeployed
+                missionName: missionForm.missionName,
+                missionLocation: missionForm.missionLocation,
+                soldiersDeployed: parseInt( missionForm.soldiersDeployed)
             };
 
             missionService.postMission ( newMission );
@@ -93,6 +86,7 @@ export default {
         const deleteMission = async () => {
             
             missionService.deleteMission(missionForm.missionId);
+            
 
         }
 
@@ -102,7 +96,7 @@ export default {
           deleteMission,
           changeMission,
           postMission,
-          ...toRefs( missionForm, missionFormNew )
+          ...toRefs( missionForm )
       }
     },
     
@@ -130,6 +124,10 @@ export default {
 
     label{
         margin: 15px 5px;
+    }
+
+    .spacingTop{
+        padding-top: 2rem;
     }
 
 </style>
