@@ -38,11 +38,16 @@ const missionService = (function(){
         missions.value.push(newMission)
     }
 
+    const deleteMission = async ( missionToDelete ) => {
+        await axios.delete(`https://localhost:7203/mission/${missionToDelete}`)
+    }
+
     
 
     return {
         getAll,
         getById,
+        deleteMission,
         postMission,
         putMission
     }

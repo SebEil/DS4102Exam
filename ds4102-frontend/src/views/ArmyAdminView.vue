@@ -93,10 +93,15 @@ export default {
             missionService.postMission ( newMission );
         }
 
-        
+        const deleteMission = async () => {
+            
+            missionService.deleteMission(missionForm.missionId);
 
-      return{
+        }
+
+        return{
           getMission,
+          deleteMission,
           changeMission,
           postMission,
           ...toRefs( missionForm )
