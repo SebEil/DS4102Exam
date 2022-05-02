@@ -6,6 +6,8 @@
         <soldier-list></soldier-list>
         <edit-vehicles></edit-vehicles>
         <vehicle-list></vehicle-list>
+        <edit-weapons></edit-weapons>
+        <weapon-list></weapon-list>
     </section>
 </template>
 
@@ -16,6 +18,8 @@ import MissionsList from '../components/missions/MissionsList.vue'
 import SoldierList from '../components/soldiers/SoldierList.vue'
 import EditVehicles from '../components/Vehicles/EditVehicles.vue'
 import VehicleList from '../components/Vehicles/VehicleList.vue'
+import EditWeapons from '../components/Weapons/EditWeapons.vue'
+import WeaponList from '../components/Weapons/WeaponList.vue'
 
 
 
@@ -25,7 +29,9 @@ export default {
         EditMission,
         SoldierList,
         VehicleList,
-        EditVehicles 
+        EditVehicles,
+        EditWeapons,
+        WeaponList 
     }
 }
 </script>

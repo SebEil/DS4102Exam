@@ -14,13 +14,40 @@ const weaponService = (function(){
 
     const getAllWeapons = () => weapons;
 
-    const postWeapon = ( newWeapon ) =>
+    const getById = async (weaponId) => {
+        const request = await axios.get(`https://localhost:7203/weapon/${weaponId}`)
+        return request.data;
+    }
 
-    weapons.value.push(newWeapon)
+    const putWeapon = async (editedWeapon) => {
+        await axios.put("https://localhost:7203/weapon", editedWeapon)
+        
+        const temporaryWeaponArray = JSON.parse( JSON.stringify( weapons.value ))
+
+        const index = temporaryWeaponArray.findIndex( weapon => parseInt( weapon.id ) === parseInt( editedWeapon.id ) );
+
+        weapons.value[index].weaponName = editedWeapon.weaponName;
+        weapons.value[index].weaponCost = editedWeapon.weaponCost;
+        weapons.value[index].inUse = editedWeapon.inUse;
+
+    }
+
+    const postWeapon = ( newWeapon ) => {
+        axios.post( weaponControllerUrl, newWeapon )
+        weapons.value.push(newWeapon);
+    }
+
+    const deleteWeapon = async ( weaponToDelete ) => {
+        await axios.delete(`https://localhost:7203/weapon/${weaponToDelete}`)
+        
+    }
 
     return {
         getAllWeapons,
-        postWeapon
+        getById,
+        deleteWeapon,
+        postWeapon,
+        putWeapon
     }
 }())
 
