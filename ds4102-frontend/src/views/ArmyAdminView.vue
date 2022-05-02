@@ -1,23 +1,42 @@
 <template>
-    <section>
-        <h2>Army admin page</h2>
-        <h3>Search here</h3>
-        <label>Id</label>
-        <input v-model="missionId" type="text">
-        <input @click="getMission" type="button" value="Get"><br>
-        <label>Name</label>
-        <input v-model="missionName" type="text"><br>
-        <label>Location</label>
-        <input v-model="missionLocation" type="text"><br>
-        <label>Soldier deployed</label>
-        <input v-model="soldiersDeployed" type="text"><br>
-        <input @click="changeMission" type="button" value="Save changes">
-        <input @click="postMission" type="button" value="Add">
-        <input @click="deleteMission" type="button" value="Delete">
-        <missions-list></missions-list>
+    <section id="inputSection">
+        <section class="container-lg">
+            <section class="text-center">
+                <h2>Army Admin Page</h2>
+            </section>
+            <section class="row justify-content-center">
+                <section class="col-lg-3">
+                    <form>
+                        <section class="input-group">
+                            <label for="id" class="form-label">Id</label>
+                            <input v-model="missionId" type="text" class="form-control" id="id" placeholder="Type in ID and press 'Get'"/>
+                            <input @click="getMission" type="button" value="Get" class="btn btn-primary">
+                        </section>
+                        
+                        <section class="input-group">
+                            <label for="name" class="form-label">MissionName</label>
+                            <input v-model="missionName" type="text" class="form-control"/>
+                        </section>
 
+                        <section class="input-group">
+                            <label for="location" class="form-label">Location</label>
+                            <input v-model="missionLocation" type="text" class="form-control"/>
+                        </section>
 
+                        <section class="input-group">
+                            <label for="deployed" class="form-label">Soldiers deployed</label>
+                            <input v-model="soldiersDeployed" type="text" class="form-control">
+                        </section>
+
+                        <input @click="changeMission" type="button" value="Save" class="btn btn-success">
+                        <input @click="postMission" type="button" value="Add" class="btn btn-primary">
+                        <input @click="deleteMission" type="button" value="Delete" class="btn btn-danger">
+                    </form>
+                </section> 
+            </section>
+        </section>
     </section>
+    <missions-list></missions-list>
 </template>
 
 
@@ -65,17 +84,10 @@ export default {
         const postMission = () => {
 
             const newMission = {
-<<<<<<< HEAD
-                missionId: missionForm.missionId,
-                missionName: missionForm.missionName,
-                missionLocation: missionForm.missionLocation,
-                soldiersDeployed: missionForm.soldiersDeployed
-=======
                 missionId: missionFormNew.missionId,
                 missionName: missionFormNew.missionName,
                 missionLocation: missionFormNew.missionLocation,
                 soldiersDeployed: missionFormNew.soldiersDeployed
->>>>>>> 6fb6d8cc939dd4d6183ce70d2adfcad9a0911fe1
             };
 
             missionService.postMission ( newMission );
@@ -96,3 +108,25 @@ export default {
   
 }
 </script>
+
+<style scoped>
+
+    *{
+        color: #FFF;
+    }
+
+    h2{
+        margin-top: -30px;
+        padding-top: 20px;
+    }
+
+    input{
+        color: black;
+        margin: 5px;
+    }
+
+    label{
+        margin: 15px 5px;
+    }
+
+</style>

@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3 class="spacingTop">Weapons</h3>
+        <h2 class="spacingTop">Weapons</h2>
         <article class="row align d-flex justify-content-center">
         <weapon-item
             class="container col p-2 text-center" v-for="(weapon, i) in weapons"
@@ -33,17 +33,5 @@ export default {
 </script>
 
 <style>
-    .container{
-        padding: 1rem;
-        background-color: rgb(161, 148, 148);
-        border-radius: 25px;
-        margin-bottom: 1rem;
-        display: inline-block;
-    }
-
-    .spacingTop{
-        padding-top: 2rem;
-    }
-
 
 </style>

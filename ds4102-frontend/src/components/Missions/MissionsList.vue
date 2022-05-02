@@ -35,9 +35,15 @@ export default {
 </script>
 
 <style>
+
+    h2{
+        color: #FFF;
+    }
+
     .container{
+        color: white;
         padding: 1rem;
-        background-color: rgb(161, 148, 148);
+        background: #42b983;
         border-radius: 25px;
         margin-bottom: 1rem;
         display: inline-block;
@@ -47,6 +53,8 @@ export default {
         padding-top: 2rem;
     }
 
-    
+    section{
+        background-color: #191919;
+    }
 
 </style>
