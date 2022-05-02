@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3 class="spacingTop">Soldiers</h3>
+        <h2 class="spacingTop">Soldiers</h2>
         <article class="row align d-flex justify-content-center">
         <soldier-item
            class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
@@ -37,20 +37,7 @@ export default {
 <style>
     img{
         width: 320px;
-        height: 320px;   
+        height: 320px;
+        border-radius: 10px;   
     }
-
-    .container{
-        padding: 1rem;
-        background-color: rgb(161, 148, 148);
-        border-radius: 25px;
-        margin-bottom: 1rem;
-        display: inline-block;
-    }
-
-    .spacingTop{
-        padding-top: 2rem;
-    }
-
-
 </style>
