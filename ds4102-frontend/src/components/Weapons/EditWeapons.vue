@@ -49,7 +49,7 @@ export default {
             weaponId: "",
             weaponName: "",
             weaponCost: "",
-            inUse: false
+            inUse: true
         });
 
         const getWeapon = async () => {
