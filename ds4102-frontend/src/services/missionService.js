@@ -14,12 +14,18 @@ const missionService = (function(){
 
     const getAll = () => missions;
 
+    const getById = async (missionId) => {
+        const request = await axios.get(`https://localhost:7203/mission/${missionId}`)
+        return request.data;
+    }
+
     const postMission = ( newMission ) =>
 
     missions.value.push(newMission)
 
     return {
         getAll,
+        getById,
         postMission
     }
 }())

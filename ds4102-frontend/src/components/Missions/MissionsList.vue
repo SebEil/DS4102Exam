@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Missions</h3>
+        <h2 class="spacingTop">Missions</h2>
         <article class="row align d-flex justify-content-center">
         <mission-item
             class="container col p-2 text-center" v-for="(mission, i) in missions"
@@ -17,6 +17,8 @@
 <script>
 import MissionItem from "../missions/MissionItem.vue"
 import missionService from "../../services/missionService.js"
+
+
 
 export default {
     setup(){
@@ -41,5 +43,10 @@ export default {
         display: inline-block;
     }
 
+    .spacingTop{
+        padding-top: 2rem;
+    }
+
+    
 
 </style>

@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Vehicles</h3>
+        <h3 class="spacingTop">Vehicles</h3>
         <article class="row align d-flex justify-content-center">
         <vehicle-item
             class="container col p-2 text-center" v-for="(vehicle, i) in vehicles"
@@ -39,6 +39,11 @@ export default {
         margin-bottom: 1rem;
         display: inline-block;
     }
+
+    .spacingTop{
+        padding-top: 2rem;
+    }
+
 
 
 </style>

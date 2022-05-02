@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Weapons</h3>
+        <h3 class="spacingTop">Weapons</h3>
         <article class="row align d-flex justify-content-center">
         <weapon-item
             class="container col p-2 text-center" v-for="(weapon, i) in weapons"
@@ -39,6 +39,10 @@ export default {
         border-radius: 25px;
         margin-bottom: 1rem;
         display: inline-block;
+    }
+
+    .spacingTop{
+        padding-top: 2rem;
     }
 
 

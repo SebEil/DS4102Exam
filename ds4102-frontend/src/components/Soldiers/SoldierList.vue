@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Soldiers</h3>
+        <h3 class="spacingTop">Soldiers</h3>
         <article class="row align d-flex justify-content-center">
         <soldier-item
            class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
@@ -46,6 +46,10 @@ export default {
         border-radius: 25px;
         margin-bottom: 1rem;
         display: inline-block;
+    }
+
+    .spacingTop{
+        padding-top: 2rem;
     }
 
 
