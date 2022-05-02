@@ -20,6 +20,7 @@ import missionService from "../../services/missionService.js"
 
 
 
+
 export default {
     setup(){
         const missions = missionService.getAll();
@@ -29,7 +30,8 @@ export default {
         }
     },
     components: {
-        MissionItem
+        MissionItem,
+
     }   
 }
 </script>

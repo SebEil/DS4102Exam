@@ -34,8 +34,8 @@ const missionService = (function(){
 
 
     const postMission = async ( newMission ) => {
-        axios.post( missionControllerUrl, newMission );
-        missions.value.push(newMission)
+        axios.post( missionControllerUrl, newMission )
+        missions.value.push(newMission);
     }
 
     const deleteMission = async ( missionToDelete ) => {
@@ -43,7 +43,6 @@ const missionService = (function(){
     }
 
     
-
     return {
         getAll,
         getById,
