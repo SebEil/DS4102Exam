@@ -43,8 +43,23 @@ export default {
             missionForm.soldiersDeployed = mission.soldiersDeployed;           
         }
 
+        const changeMission = async () => {
+
+            const editedMission = {
+                missionId: parseInt( missionForm.missionId ),
+                missionName: missionForm.missionName,
+                missionLocation: missionForm.missionLocation,
+                soldiersDeployed: parseInt( missionForm.soldiersDeployed)
+            }
+
+            missionService.putMission( editedMission );
+
+        }
+
+
       return{
           getMission,
+          changeMission,
           ...toRefs( missionForm )
       }
   },

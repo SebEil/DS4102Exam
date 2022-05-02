@@ -19,6 +19,22 @@ const missionService = (function(){
         return request.data;
     }
 
+    const putMission = async (editedMission) => {
+        await axios.put("https://localhost:7203/mission", editedMission)
+        
+        const temporaryMissionArray = JSON.parse( JSON.stringify( missions.value ))
+
+        const index = temporaryMissionArray.findIndex( mission => parseInt( mission.id ) === parseInt( editedMission.id ) );
+
+        missions.value[index].missionName = editedMission.missionName;
+        missions.value[index].missionLocation = editedMission.missionLocation;
+        missions.value[index].soldiersDeployed = editedMission.soldiersDeployed;
+
+    }
+
+
+
+
     const postMission = ( newMission ) =>
 
     missions.value.push(newMission)
@@ -26,7 +42,8 @@ const missionService = (function(){
     return {
         getAll,
         getById,
-        postMission
+        postMission,
+        putMission
     }
 }())
 

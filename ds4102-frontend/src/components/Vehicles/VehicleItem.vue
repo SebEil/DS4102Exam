@@ -23,10 +23,10 @@ export default {
     .vehicleContainer {
         border-radius: 25px;
         margin: 0.5rem;
-        
+        min-height: 150px;
         min-width: 400px;
         max-width: 500px;
-        padding: 3rem;
+        padding: 2rem;
     }
 
 </style>
