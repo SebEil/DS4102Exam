@@ -33,11 +33,12 @@ const missionService = (function(){
     }
 
 
+    const postMission = async ( newMission ) => {
+        axios.post( missionControllerUrl, newMission );
+        missions.value.push(newMission)
+    }
 
-
-    const postMission = ( newMission ) =>
-
-    missions.value.push(newMission)
+    
 
     return {
         getAll,

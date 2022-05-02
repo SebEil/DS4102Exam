@@ -12,6 +12,7 @@
         <label>Soldier deployed</label>
         <input v-model="soldiersDeployed" type="text"><br>
         <input @click="changeMission" type="button" value="Save changes">
+        <input @click="postMission" type="button" value="Add">
         <input @click="deleteMission" type="button" value="Delete">
         <missions-list></missions-list>
 
@@ -22,7 +23,7 @@
 
 <script>
 import MissionsList from "../components/missions/MissionsList.vue"
-import missionService from "../services/missionService"
+import missionService from "../services/missionService.js"
 import {reactive, toRefs} from 'vue'
 
 
@@ -30,7 +31,7 @@ export default {
   setup(){
        
        const missionForm = reactive({
-            missionId: 1,
+            missionId: "",
             missionName: "",
             missionLocation: "",
             soldiersDeployed: 1
@@ -53,13 +54,26 @@ export default {
             }
 
             missionService.putMission( editedMission );
-
         }
 
+        const postMission = () => {
+
+            const newMission = {
+                missionId: missionForm.missionId,
+                missionName: missionForm.missionName,
+                missionLocation: missionForm.missionLocation,
+                soldiersDeployed: missionForm.soldiersDeployed
+            };
+
+            missionService.postMission ( newMission );
+        }
+
+        
 
       return{
           getMission,
           changeMission,
+          postMission,
           ...toRefs( missionForm )
       }
   },
