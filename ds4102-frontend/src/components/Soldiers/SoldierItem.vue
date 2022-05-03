@@ -31,14 +31,13 @@ export default {
         margin: 0.5rem;  
         min-width: 400px;
         max-width: 500px;
-        padding: 3rem;
     }
 
-        img{
+    img { 
+        padding: 2rem;
         width: 100%;
         height: 320px;
-        border-radius: 10px;   
-        clip-path: circle(30%);
+        border-radius: 10px;    
     }
 
 </style>

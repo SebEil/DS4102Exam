@@ -89,6 +89,7 @@ li a{
 
 li a:hover{
   border-bottom: 1px solid #ffffff;
+  color: white;
 
 }
 
