@@ -61,7 +61,7 @@ export default {
             soldierId: "",
             soldierName: "",
             bloodtype: "",
-            height: "",
+            height: 180,
             image: "",
             isOnMission: true
         });
@@ -105,7 +105,7 @@ export default {
                 isOnMission: JSON.parse(soldierForm.isOnMission)
             };
 
-            soldierService.postSoldier ( newSoldier );
+            soldierService.postSoldier ( newSoldier, image );
         }
 
         const deleteSoldier = async () => {

@@ -7,7 +7,7 @@ const soldierService = (function(){
 
     const soldierControllerUrl = "https://localhost:7203/Soldier";
 
-    const imageUploadControllerUrl = "https://localhost:7203/imageUpload/PostImage";
+    const imageUploadControllerUrl = "https://localhost:7203/ImageUpload/PostImage";
 
     ( async ()=>{
         const request = await axios.get(soldierControllerUrl);
