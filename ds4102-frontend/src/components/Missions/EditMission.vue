@@ -101,11 +101,6 @@ export default {
 </script>
 
 <style>
-
-    *{
-        color: #FFF;
-    }
-
     h2{
         margin-top: -30px;
         padding-top: 20px;
@@ -120,4 +115,7 @@ export default {
         margin: 15px 5px;
     }
 
+    h2, label, input {
+        color: #FFF;
+    }
 </style>
