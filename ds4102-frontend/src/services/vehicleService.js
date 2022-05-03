@@ -39,6 +39,7 @@ const vehicleService = (function(){
 
     const deleteVehicle = async ( vehicleToDelete ) => {
         await axios.delete(`https://localhost:7203/vehicle/${vehicleToDelete}`)
+        vehicles.value.pop(vehicleToDelete)
         
     }
 

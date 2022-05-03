@@ -39,6 +39,7 @@ const weaponService = (function(){
 
     const deleteWeapon = async ( weaponToDelete ) => {
         await axios.delete(`https://localhost:7203/weapon/${weaponToDelete}`)
+        weapons.value.pop(weaponToDelete)
         
     }
 

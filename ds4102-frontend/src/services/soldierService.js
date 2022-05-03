@@ -50,6 +50,7 @@ const soldierService = (function(){
 
     const deleteSoldier = async ( soldierToDelete ) => {
         await axios.delete(`https://localhost:7203/soldier/${soldierToDelete}`)
+        soldiers.value.pop(soldierToDelete)
         
     }
 
