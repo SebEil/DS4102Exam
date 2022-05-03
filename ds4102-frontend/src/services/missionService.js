@@ -40,6 +40,8 @@ const missionService = (function(){
 
     const deleteMission = async ( missionToDelete ) => {
         await axios.delete(`https://localhost:7203/mission/${missionToDelete}`)
+        missions.value.pop(missionToDelete)
+        
         
     }
 

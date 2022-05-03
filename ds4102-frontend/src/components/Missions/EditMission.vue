@@ -44,6 +44,8 @@ import {reactive, toRefs} from 'vue'
 
 export default {
   setup(){
+
+
        
        const missionForm = reactive({
             missionId: "",
@@ -82,6 +84,7 @@ export default {
             };
 
             missionService.postMission ( newMission );
+
         }
 
         const deleteMission = async () => {
