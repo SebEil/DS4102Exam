@@ -1,49 +1,36 @@
 <template>
-    <section> <h2 class="spacingTop">Soldier Editing</h2>
-    <section id="inputSection">
-        <section class="container-lg">
-            <section class="row justify-content-center">
-                <section class="col-lg-3">
-                    <form>
-                        <section class="input-group">
-                            <label for="id" class="form-label">Id</label>
-                            <input v-model="soldierId" type="text" class="form-control" id="id" placeholder="Type in ID and press 'Get'"/>
-                            <input @click="getSoldier" type="button" value="Get" class="btn btn-primary">
-                        </section>
-                        
-                        <section class="input-group">
-                            <label for="name" class="form-label">SoldierName</label>
-                            <input v-model="soldierName" type="text" class="form-control"/>
-                        </section>
+    <section> 
+        <h2 class="spacingTop">Soldier Editing</h2>
+        <section id="inputSection">
+            <section class="container-lg">
+                <section class="row justify-content-center">
+                    <section class="col-lg-6">
+                                <label for="id" class="form-label">Id</label>
+                                <input v-model="soldierId" type="text" class="form-control" id="id" placeholder="Type in ID and press 'Get'"/>
+                                <input @click="getSoldier" type="button" value="Get" class="btn btn-primary"> <br>
 
-                        <section class="input-group">
-                            <label for="bloodtype" class="form-label">Bloodtype</label>
-                            <input v-model="bloodtype" type="text" class="form-control"/>
-                        </section>
-
-                        <section class="input-group">
-                            <label for="height" class="form-label">Soldiers height</label>
-                            <input v-model="height" type="text" class="form-control">
-                        </section>
-
-                         <section class="input-group">
-                            <label for="image" class="form-label">Image</label>
-                            <input @change="setImage" type="file" class="form-control">
-                        </section>
-                        
-                        <section class="input-group">
-                            <label for="isOnMission" class="form-label">Is on mission</label>
-                            <input v-model="isOnMission" type="text" class="form-control">
-                        </section>
-
-                        <input @click="changeoldier" type="button" value="Save" class="btn btn-success">
-                        <input @click="postSoldier" type="button" value="Add" class="btn btn-primary">
-                        <input @click="deleteSoldier" type="button" value="Delete" class="btn btn-danger">
-                    </form>
-                </section> 
+                                <label for="name" class="form-label">SoldierName</label>
+                                <input v-model="soldierName" type="text" class="form-control"/>
+        
+                                <label for="bloodtype" class="form-label">Bloodtype</label>
+                                <input v-model="bloodtype" type="text" class="form-control"/>
+        
+                                <label for="height" class="form-label">Soldiers height</label>
+                                <input v-model="height" type="text" class="form-control">
+                    
+                                <label for="image" class="form-label">Image</label>
+                                <input @change="setImage" type="file" class="form-control">
+                
+                                <label for="isOnMission" class="form-label">Is on mission</label>
+                                <input v-model="isOnMission" type="text" class="form-control">
+                            
+                            <input @click="changeoldier" type="button" value="Save" class="btn btn-success">
+                            <input @click="postSoldier" type="button" value="Add" class="btn btn-primary">
+                            <input @click="deleteSoldier" type="button" value="Delete" class="btn btn-danger">
+                    </section> 
+                </section>
             </section>
         </section>
-    </section>
     </section>
 </template>
 
@@ -131,29 +118,3 @@ export default {
   
 }
 </script>
-
-<style scoped>
-
-    *{
-        color: #FFF;
-    }
-
-    h2{
-        margin-top: -30px;
-        padding-top: 20px;
-    }
-
-    input{
-        color: black;
-        margin: 5px;
-    }
-
-    label{
-        margin: 15px 5px;
-    }
-
-    .spacingTop{
-        padding-top: 2rem;
-    }
-
-</style>

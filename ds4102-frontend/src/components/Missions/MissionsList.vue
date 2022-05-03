@@ -39,15 +39,14 @@ export default {
 <style>
 
     h2{
+        padding-top: 20px;
         color: #FFF;
     }
 
     .container{
         color: white;
-        padding: 1rem;
-        background: #42b983;
+        background: #09b568;
         border-radius: 25px;
-        margin-bottom: 1rem;
         display: inline-block;
     }
 

@@ -5,11 +5,11 @@
         <soldier-item
            class="container col p-2 text-center" v-for="(soldier, i) in soldiers"
             :key="i"
+            :image="soldier.image"
             :soldierId="soldier.soldierId"
             :soldierName="soldier.soldierName"
             :bloodtype="soldier.bloodtype"
             :height="soldier.height"
-            :image="soldier.image"
             :isOnMission="soldier.isOnMission">
         </soldier-item>
         </article>
@@ -33,11 +33,3 @@ export default {
     }   
 }
 </script>
-
-<style>
-    img{
-        width: 320px;
-        height: 320px;
-        border-radius: 10px;   
-    }
-</style>

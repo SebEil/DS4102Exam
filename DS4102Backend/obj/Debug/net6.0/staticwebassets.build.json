@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q+bPH33Dpywod/LblFcFOpvYrCWTRS7pGzJa6JG4DPo=",
+  "Hash": "x1hxdx2Woq2rPLyPy/0iI7LfV6CXJb3j/8eFHnfa3+s=",
   "Source": "DS4102 Exam",
   "BasePath": "_content/DS4102 Exam",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DS4102 Exam\\wwwroot",
       "Source": "DS4102 Exam",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\larstveten.jpg",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\larstveten.jpg",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "images/larstveten.jpg",
       "AssetKind": "All",
@@ -34,10 +34,27 @@
       "OriginalItemSpec": "wwwroot\\images\\larstveten.jpg"
     },
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Soldier1.jpg",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\sold.jpg",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "BasePath": "_content/DS4102 Exam",
+      "RelativePath": "images/sold.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sold.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Soldier1.jpg",
+      "SourceId": "DS4102 Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "images/Soldier1.jpg",
       "AssetKind": "All",
@@ -51,10 +68,27 @@
       "OriginalItemSpec": "wwwroot\\images\\Soldier1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Tanks1.jpg",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\soldor.jpg",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "BasePath": "_content/DS4102 Exam",
+      "RelativePath": "images/soldor.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\soldor.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\images\\Tanks1.jpg",
+      "SourceId": "DS4102 Exam",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "images/Tanks1.jpg",
       "AssetKind": "All",
@@ -68,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Tanks1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\Index.html",
+      "Identity": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\Index.html",
       "SourceId": "DS4102 Exam",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sebas\\Desktop\\Eksamen webutvikling\\DS4102Exam\\DS4102Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\henri\\OneDrive\\Desktop\\DS4102Exam\\DS4102Backend\\wwwroot\\",
       "BasePath": "_content/DS4102 Exam",
       "RelativePath": "Index.html",
       "AssetKind": "All",

@@ -57,7 +57,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 
 header {
   z-index: 99;
