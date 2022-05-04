@@ -62,7 +62,7 @@ export default {
 
             missionService.putMission( editedMission );
             
-            
+
         }
 
         const postMission = () => {

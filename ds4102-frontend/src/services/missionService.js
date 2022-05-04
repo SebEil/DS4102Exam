@@ -30,6 +30,7 @@ const missionService = (function(){
         missions.value[index].missionLocation = editedMission.missionLocation;
         missions.value[index].soldiersDeployed = editedMission.soldiersDeployed;
 
+
     }
 
 

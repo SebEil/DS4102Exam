@@ -39,7 +39,6 @@ export default {
 <style>
 
     h2{
-        padding-top: 20px;
         color: #FFF;
     }
 
@@ -51,7 +50,7 @@ export default {
     }
 
     .spacingTop{
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
 
     section{
